@@ -4,10 +4,9 @@ html {
     }
 
 body {
-    background: ("../res/cool guy at desk.jpg/");
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Candara';
     }
 
 .navbar {
@@ -47,8 +46,9 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #7D7D7D;
+    background-color: #c5c5c5;
     color: black;
+    border-radius: 25px;
 }
 
 .navbar a.active {
