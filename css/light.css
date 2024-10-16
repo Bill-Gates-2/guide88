@@ -10,6 +10,10 @@ body {
     font-family:'Candara';
     }
 
+.navcontainer {
+    display: flex;
+    flex-direction: column;
+}
 .navbar {
     display: flex;
     justify-content: left;
@@ -28,7 +32,7 @@ body {
     top: 0px;
     max-width: 100%;
     z-index: 3;
-    height: 24px;
+    height: 3vh;
 
     padding: 10px;
 }
@@ -57,6 +61,11 @@ body {
     border-radius: 25px;
 }
 
-.navbar #menuLinks {
+#menuLinks {
     display: none;
+    background-color: #c5c5c5;
+    position: fixed;
+    text-decoration: none;
+
+    width: 100%;
 }
