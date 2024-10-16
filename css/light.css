@@ -56,9 +56,10 @@ body {
     border-radius: 25px;
 }
 
-#menuLinks a.active {
-    color: rgb(0, 0, 0);
+#menuLinks .active {
+    color: #919191;
 }
+
 
 #menuLinks {
     display: none;
