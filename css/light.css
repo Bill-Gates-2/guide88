@@ -102,7 +102,7 @@ body {
     font-size: 50px;
 }
 
-.tinfo {
+.centeredBox {
     width: 100%;
     display: flex;
 
@@ -110,7 +110,7 @@ body {
     align-items: center;
 }
 
-.tinfo div {
+.centeredBox div {
     width: 80%;
     text-align: center;
 }
