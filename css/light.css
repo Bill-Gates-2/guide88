@@ -115,3 +115,23 @@ body {
     text-align: center;
 }
 
+.About H1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid-contain {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 15px;
+}
+
+.grid-item {
+    float:right;   
+    
+}
+
+.grid-image {
+    float:left;
+}
