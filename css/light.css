@@ -125,15 +125,20 @@ body {
     grid-auto-flow: column;
     grid-template-columns: auto, 1fr;
     padding: 15px;
+    margin-left: 500px;
+    
 }
 
 .grid-item {
     width: 50%; 
     padding: 5px;
     
+    
 }
 
 .grid-image {
     width: 50%;
     padding: 5px;
+    border: 5px black;
+    
 }
