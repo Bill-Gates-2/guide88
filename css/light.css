@@ -72,6 +72,7 @@ body {
 
     
     z-index: 5;
+    min-width: fit-content;
     
 }
 
