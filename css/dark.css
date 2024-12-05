@@ -18,7 +18,7 @@ body {
     justify-content: center;
     gap: 10%;
     height: 100%;
-    background-image: url("../res/pattern-dark.png");
+    background-image: url("../res/backpattern.png");
     background-size: contain;
 }
 
