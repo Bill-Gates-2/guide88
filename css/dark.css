@@ -14,6 +14,31 @@ a, h1, h2, h3, h4, h5, p {
     color: #dcdbfc;
 }
 
+.Links {
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+
+    li {
+       float: right; 
+       text-decoration: none;
+       list-style-type: none;
+       color: #dcdbfc;
+       margin-right: 1vw;
+       font-weight: 700;
+    }
+    img {
+        height: 15px;
+        width: auto;
+        
+       border-left: 6px;
+       border-right: none;
+    }
+}
+
 .banner {
     position: relative;
     display: flex;
@@ -25,7 +50,7 @@ a, h1, h2, h3, h4, h5, p {
     background-image: url("../res/backpattern.png");
     background-size: contain;
 }
-
+/* unused */
 .navcontainer {
     position: sticky;
     display: none;
@@ -101,7 +126,7 @@ a, h1, h2, h3, h4, h5, p {
     color: white;
     font-size: 40px;
 }
-
+/* unused end */
 .Title {
     position: relative;
     display: flex;

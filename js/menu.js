@@ -7,3 +7,4 @@ function menuToggle() {
         x.style.display = "block";
     }
 }
+//function unused
