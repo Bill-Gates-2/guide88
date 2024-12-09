@@ -26,10 +26,11 @@ a, h1, h2, h3, h4, h5, p {
        float: right; 
        text-decoration: none;
        list-style-type: none;
-       color: #dcdbfc;
+       color: white;
        margin-right: 1vw;
        font-weight: 700;
     }
+    
     img {
         height: 15px;
         width: auto;
