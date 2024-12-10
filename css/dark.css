@@ -30,6 +30,11 @@ a, h1, h2, h3, h4, h5, p {
        margin-right: 1vw;
        font-weight: 700;
     }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
     
     img {
         height: 15px;
