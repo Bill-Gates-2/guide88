@@ -228,3 +228,35 @@ a, h1, h2, h3, h4, h5, p {
 img {
     border-radius: 25px;
 }
+
+.About h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid-contain {
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto, 1fr;
+    padding: 15px;
+    background-color: #000000;
+    opacity: 0.7;
+    border-radius: 25px;
+    
+}
+
+.grid-item {
+    width: 50%; 
+    padding: 10px;
+    font-size: 22px;
+    font-family: Verdana ;
+    color: white;
+    
+    
+}
+
+.grid-image {
+    width: 50%;
+    padding: 5px;
+    border-radius: 25px;
+}
